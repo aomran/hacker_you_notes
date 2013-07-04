@@ -8,14 +8,14 @@ $ git config --global user.name <name>
 $ git config --global user.email <email>
 ```
 
-## Creating a Repository
+## Create a Repository
 Assuming we are in the directory that we want to version control. 
 
 ```
 $ git init
 ```
 
-## Add files
+## Add files/folders
 The "add" command adds a file and/or folder to the **staging area**. Changes are not recorded into git history yet.
 
 ```
@@ -40,6 +40,7 @@ $ git commit -m "initial commit"
 ```
 
 ## Branching
+- ```$ git branch``` to see a list of branches in current repository.
 - ```$ git branch <name>``` to create a branch
 - ```$ git checkout <name>``` to switch to a branch.
 - ```$ git checkout <commit_ref>``` to switch to a specific commit. Get references from ```$ git log``` (no need for the full ref. just enough to make it unique).
@@ -60,6 +61,18 @@ HEAD can be thought of as the current branch - i.e. where you are right now. Cha
 * ``` $ git revert ``` used to revert a **single** commit.
 * Revert is safer when working with others, because history is not deleted.
 
+## Remote
+It is possible to publish your local git repository to a remote place (server, github etc.).
+
+- ```$ git remote -v``` to see a list of the remote connections to other repositories.
+- ```$ git remote add <name> <url>``` to add a remote repository/connection.  
+- ```$ git remote rm <name>``` to remove a remote repository/connection.
+
+## Push
+To send/publish your local git repository to a remote place.
+
+- ```$ git push <remote_name> <branch_name>``` this pushes the local branch to a remote connection.
+- Add the -u flag to make this push command the default. Making it possible to simply use ```$ git push``` in the future.
 
 ## Forking
 1. Fork a repo in github
@@ -67,3 +80,12 @@ HEAD can be thought of as the current branch - i.e. where you are right now. Cha
 3. Add a remote (call it upstream) pointing to the original repo: ``` $ git remote add upstream <path_to_repo>```
 4. ``` $ git fetch upstream ``` to get updates from the original repo
 5. ``` $ git merge upstream/master ``` to merge the updates to the original repo into your copy.
+
+## Pull
+- Fetching changes from "upstream" and merging them into the current repository is a common task. ```$ git pull <remote_name>``` combines the two tasks into one command.
+- ```$ git pull --rebase <remote_name>``` this does the same except it uses rebase instead of merge.
+
+
+# Resources
+- [LearnGitBranching](http://pcottle.github.io/learnGitBranching/)
+- [Atlassian Github Tutorial](http://www.atlassian.com/git/tutorial)
