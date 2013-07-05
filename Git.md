@@ -89,3 +89,7 @@ To send/publish your local git repository to a remote place.
 # Resources
 - [LearnGitBranching](http://pcottle.github.io/learnGitBranching/)
 - [Atlassian Github Tutorial](http://www.atlassian.com/git/tutorial)
+
+## Contributor Tests
+
+1. Nachiket: Testing my changes!!
