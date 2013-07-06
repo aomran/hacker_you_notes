@@ -5,7 +5,7 @@
 * **Remember**: stop the server (Ctrl + C) for changes to take effect
 * Inside each action, returned values are printed to the web browser and 'puts' goes to the command line.
 
-* ```
+* ```ruby
 get '/' do
 	puts "hello command line" # goes to command line
 	"hello browser"           # goes to browser
@@ -21,7 +21,7 @@ end
 - Add `<%= yield %>` to layout.erb to specify where the return values from each action should be added
 - Use the variable 'erb' to specific that you want to use a layout:
 
-- ```
+- ```ruby
 get '/html' do
 	erb "Hello World!"
 end
