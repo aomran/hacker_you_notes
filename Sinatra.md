@@ -4,6 +4,7 @@
 * Resource: [Sinatra Tutorial](http://www.sinatrarb.com/intro.html)
 * **Remember**: stop the server (Ctrl + C) for changes to take effect
 * Inside each action, returned values are printed to the web browser and 'puts' goes to the command line.
+
 * ```
 get '/' do
 	puts "hello command line" # goes to command line
@@ -19,6 +20,7 @@ end
 - By convention, views/layout.erb is the base layout
 - Add `<%= yield %>` to layout.erb to specify where the return values from each action should be added
 - Use the variable 'erb' to specific that you want to use a layout:
+
 - ```
 get '/html' do
 	erb "Hello World!"
