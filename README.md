@@ -13,3 +13,8 @@ The objective of this repository is twofold: to *collaboratively create a good s
 8. Keep your fork up to date with `git pull upstream master`
 
 **More information about the above workflow can be found on [Forking Workflow](http://www.atlassian.com/git/workflows#!workflow-forking)**
+
+
+## Contributors
+1. Ahmed
+2. Nachiket
