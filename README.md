@@ -12,8 +12,9 @@ The objective of this repository is twofold: to *collaboratively create a good s
 7. Create new Pull Request on github.com
 8. Keep your fork up to date with `git pull upstream master`
 
-**More information about the above workflow can be found on [Forking Workflow](http://www.atlassian.com/git/workflows#!workflow-forking)**
-
+## Resources
+- **More information about the above workflow can be found on [Forking Workflow](http://www.atlassian.com/git/workflows#!workflow-forking)**
+- ** The [Github Collaboration Documentation](https://help.github.com/categories/63/articles) is very useful too. **
 
 ## Contributors
 1. Ahmed
