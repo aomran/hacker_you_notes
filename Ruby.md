@@ -1,9 +1,9 @@
 # Ruby
 
-Ruby is a unique programming language, understanding it is crucial for web development with Rails. Ruby is an object oriented language
+Ruby is a unique programming language, understanding it is crucial for web development with Rails. Ruby is an object oriented language.
 
-## 1. Everything is an object
-To understand object oriented programming, taking a minute and look around you. There are many objects in the real world, these "objects" have "state" and "behaviour". Humans have state (weight, hair colour, etc.) and behaviour (eat, speak, complain, complain, etc.).
+## Everything is an object
+To understand object oriented programming, take a minute and look around you. There are many objects in the real world, these "objects" have "state" and "behaviour". Humans have state (weight, hair colour, etc.) and behaviour (eat, speak, complain, complain, etc.).
 
 In Ruby, everything is an object -- they have state and behaviour. The string "hello" for example, is an object. It has state (its length is 5) and it has behaviour (add it to other strings with +, encrypt it with .crypt).
 
