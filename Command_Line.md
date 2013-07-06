@@ -1,5 +1,17 @@
 # Command Line Notes
 
+## Command line basics
+* commands are just programs, for example use ```$ which ls``` to find where the ls program is.
+* The command line searches in $PATH for the programs.
+* ```$ echo $PATH``` to see the colon separated list of paths.
+* it will look in each path, one by one until it finds the program.
+* or you can just give the absolute path, for example: ``` $ /bin/ls ```
+
+## Man
+* manual for command line programs
+* man <program_name>
+* you'll get into a "paging program". type 'q' to exit.
+
 ## Most common Commands
 * cd [path] -- change directory
 * pwd -- print path to directory you are in
